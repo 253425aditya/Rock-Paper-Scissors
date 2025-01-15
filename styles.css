@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: #29353c;
+}
+
+.header{
+    background: #44576D;
+    padding: 1rem;
+    text-align: center;
+}
+.huh{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.container{
+    font-size: 2rem ;
+    padding-top: 50px;
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.instructions{
+    align-self: center;
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.h2{
+    padding-left: 15px;
+}
+button{
+    width: 200px;
+    height: 200px;
+}

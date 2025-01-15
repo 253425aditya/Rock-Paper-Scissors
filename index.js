@@ -40,11 +40,11 @@ function playRound(c,h){
 }
 
 function playGame(){ 
-    for(let i=1;i<=5;i++){
+    
         let human = getHumanChoice();
         let computer = getComputerChoice();
         playRound(computer,human);
-    }
+    
 }
 
 let humanScore = 0;
